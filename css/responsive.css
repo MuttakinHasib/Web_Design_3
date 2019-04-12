@@ -1,0 +1,174 @@
+
+@media screen and (max-width:992px){
+    .contact{
+        padding-left: 67px;
+    }
+    .contact ul{
+        display: block !important;
+    }
+}
+@media screen and (max-width:767px){
+    .contact{
+        padding-left: 0px;
+    }
+    .ports-items .item-inner h4{
+        font-size: 1.5rem !important;
+        padding-bottom: 10px !important;
+    }
+    .ports-items .item-inner p{
+        font-size: 15px !important;
+        margin-top: 1rem !important;
+        margin-bottom: 0.5rem !important;
+    }
+    .ports-items .item-inner{
+        top: 20px !important;
+        left: 20px !important;
+        right: 20px !important;
+        bottom: 20px !important;
+    }
+    .item-inner i{
+        width: 35px !important;
+        height: 35px !important;
+        line-height: 35px !important;
+        font-size: 15px !important;
+        margin: 10px !important;
+    }
+    .news-form{
+        margin: 50px !important;
+        margin-left: 5px !important;
+    }
+}
+
+@media screen and (max-width:1199px){
+    .menu-bar li a{
+        margin-top: 10px; 
+    }
+    .menu-bar li a::before{
+        top: -20px !important;
+    }
+    .current::before{
+        top: -10px !important;
+    }
+    .ports-items .item-inner h4{
+        font-size: 16px;
+    }
+    .ports-items .item-inner p{
+        font-size: 13px;
+    }
+
+}
+@media screen and (max-width:991px){
+    .current::before{
+        top: 5px !important;
+    }
+    .menu-bar li a::before{
+        top: -5px !important;
+    }
+    .def-btn{
+        margin-top: 1rem !important;
+        margin-bottom: 1rem !important;
+    }
+    .button .abt-btn{
+        margin: 30px 50px !important;
+    }
+    .about .about-tab li a:last-child{
+        margin-top: .5rem !important;
+    }
+    .header-menu{
+        border-bottom: 1px solid tomato;
+        position: sticky !important;
+        top: 0 !important;
+        z-index: 999 !important;
+        background: #fff !important;
+    }
+    .service-content{
+        padding: 15px;
+    }
+    .service-content i{
+        width: 30px;
+        height: 30px;
+        font-size: 30px;
+    }
+    .ml--14{
+        margin-right: 23px !important;
+    }
+    .single-item h2{
+        font-size: 20px !important;
+    }
+
+    .abt-content h1{
+        font-size: 2rem;
+    }
+    
+    .abt-inner{
+        margin-top: 0px !important;
+    }
+    .item-inner{
+        top: 10px !important;
+        left: 10px !important;
+        right: 10px !important;
+        bottom: 10px !important;
+    }
+    .ports-items .item-inner h4{
+        font-size: 15px;
+        padding-bottom: 3px;
+        margin-bottom: 3px;
+    }
+    .ports-items .item-inner p{
+        font-size: 11px;
+        margin-bottom: 0px;
+    }
+    .item-inner i{
+        margin:0 10px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    
+    #slider .single-slider{
+        height:500px;
+    }
+    #slider .single-slider .text {
+        margin-top: 158px;
+        padding: 0 100px;
+    }
+    #slider .single-slider h1 {
+        color: #fff;
+        font-size: 38px;;
+    }
+    #slider .single-slider p {
+        margin: 0 20px;
+    }
+    
+}
+    
+    @media only screen and (max-width: 767px){
+   
+    #slider .single-slider{
+        height:400px;
+    }
+    #slider .single-slider p {
+        margin: 20px;
+    }
+    #slider .single-slider .text {
+        margin-top: 0;
+        padding: 30px 20px;
+    }
+    #slider .single-slider .btn {
+        margin-right: 5px;
+        margin-bottom: 20px;
+        font-size:14px;
+        display:block;
+    }
+    #slider .single-slider h1 {
+        color: #fff;
+        font-size: 20px;
+        line-height: 25px;
+        margin: 0 0 15px;
+    }
+    #slider .single-slider p {
+        margin: 0 20px;
+    }
+    #slider .single-slider .btn{
+        margin-right:5px;
+    }
+}
